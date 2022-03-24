@@ -1,0 +1,514 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* 
+.timeline {
+    position: relative;
+    height: 92%;
+}
+
+
+.timeline_content::after {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    right: 50%;
+    width: 2px;
+    height: 100%;
+}
+
+
+.timeline_item_even {
+    position: relative;
+    padding: 20px;
+    margin: 10px -35px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    float: left;
+    clear: right;
+    border-radius: 50px 0px 50px 50px;
+}
+
+
+.timeline_item_odd {
+    position: relative;
+    padding: 20px;
+    margin: 10px -35px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    float: right;
+    clear: left;
+    border-radius: 0px 50px 50px 50px;
+}
+
+.timeline_item_even::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    padding: 22px 22px;
+    top: -15%;
+    right: -10%;
+    border-radius: 50%;
+}
+
+.timeline_item_odd::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    padding: 22px 22px;
+    top: -11%;
+    left: -10%;
+    border-radius: 50%;
+} */
+
+
+@media (min-width:320px) and (max-width:575.98px) {
+    .timeline {
+        position: relative;
+        height: 92%;
+    }
+
+
+    /* .timeline_content::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        right: 50%;
+        width: 2px;
+        height: 100%;
+    } */
+
+
+    .timeline_item_even {
+        position: relative;
+        padding: 20px;
+        margin: 20px;
+        background-color: black;
+        color: white;
+        /* width: 50%; */
+        /* float: left; */
+        /* clear: right; */
+        border-radius: 20px 20px 20px 20px;
+    }
+
+
+    .timeline_item_odd {
+        position: relative;
+        padding: 20px;
+        margin: 20px;
+        background-color: black;
+        color: white;
+        /* width: 50%; */
+        /* float: right; */
+        /* clear: left; */
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    /* .timeline_item_even::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 22px 22px;
+        top: -15%;
+        right: -10%;
+        border-radius: 50%;
+    }
+
+    .timeline_item_odd::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 22px 22px;
+        top: -11%;
+        left: -10%;
+        border-radius: 50%;
+    } */
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+    .timeline {
+        position: relative;
+        height: 92%;
+    }
+
+
+    .timeline_content::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        right: 110%;
+        width: 3px;
+        height: 100%;
+        bottom: 0px;
+    }
+
+
+    .timeline_item_even {
+        position: relative;
+        padding: 20px;
+        margin: 20px -35px;
+        background-color: black;
+        color: white;
+        /* width: 50%; */
+        /* float: left; */
+        /* clear: right; */
+        border-radius: 20px 20px 20px 20px;
+    }
+
+
+    .timeline_item_odd {
+        position: relative;
+        padding: 20px;
+        margin: 20px -35px;
+        background-color: black;
+        color: white;
+        /* width: 50%; */
+        /* float: right; */
+        /* clear: left; */
+        border-radius: 20px 20px 20px 20px;
+    }
+
+
+    .timeline_item_even::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 15px 15px;
+        top: -2%;
+        left: -6%;
+        border-radius: 50%;
+    }
+
+    .timeline_item_odd::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 15px 15px;
+        top: 1%;
+        left: -6%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .timeline {
+        position: relative;
+        height: 92%;
+    }
+
+
+    .timeline_content::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        right: 50%;
+        width: 2px;
+        height: 100%;
+    }
+
+
+    .timeline_item_even {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: left;
+        clear: right;
+        border-radius: 50px 0px 50px 50px;
+    }
+
+
+    .timeline_item_odd {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: right;
+        clear: left;
+        border-radius: 0px 50px 50px 50px;
+    }
+
+    .timeline_item_even::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 17px 17px;
+        top: -9%;
+        right: -15%;
+        border-radius: 50%;
+    }
+
+    .timeline_item_odd::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 17px 17px;
+        top: -7%;
+        left: -15%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1023.98px) {
+    .timeline {
+        position: relative;
+        height: 92%;
+    }
+
+
+    .timeline_content::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        right: 50%;
+        width: 2px;
+        height: 100%;
+    }
+
+
+    .timeline_item_even {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: left;
+        clear: right;
+        border-radius: 50px 0px 50px 50px;
+    }
+
+
+    .timeline_item_odd {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: right;
+        clear: left;
+        border-radius: 0px 50px 50px 50px;
+    }
+
+    .timeline_item_even::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 19px 19px;
+        top: -10%;
+        right: -11%;
+        border-radius: 50%;
+    }
+
+    .timeline_item_odd::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 19px 19px;
+        top: -7%;
+        left: -12%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1199.98px) {
+    .timeline {
+        position: relative;
+        height: 92%;
+    }
+
+
+    .timeline_content::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        right: 50%;
+        width: 2px;
+        height: 100%;
+    }
+
+
+    .timeline_item_even {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: left;
+        clear: right;
+        border-radius: 50px 0px 50px 50px;
+    }
+
+
+    .timeline_item_odd {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: right;
+        clear: left;
+        border-radius: 0px 50px 50px 50px;
+    }
+
+    .timeline_item_even::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 20px 20px;
+        top: -15%;
+        right: -12%;
+        border-radius: 50%;
+    }
+
+    .timeline_item_odd::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 20px 20px;
+        top: -11%;
+        left: -12%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1399.98px) {
+    .timeline {
+        position: relative;
+        height: 92%;
+    }
+
+
+    .timeline_content::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        right: 50%;
+        width: 2px;
+        height: 100%;
+    }
+
+
+    .timeline_item_even {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: left;
+        clear: right;
+        border-radius: 50px 0px 50px 50px;
+    }
+
+
+    .timeline_item_odd {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: right;
+        clear: left;
+        border-radius: 0px 50px 50px 50px;
+    }
+
+    .timeline_item_even::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 21px 21px;
+        top: -15%;
+        right: -10%;
+        border-radius: 50%;
+    }
+
+    .timeline_item_odd::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 21px 21px;
+        top: -11%;
+        left: -10%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:1400px) and (max-width:2000px) {
+    .timeline {
+        position: relative;
+        height: 92%;
+    }
+
+
+    .timeline_content::after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        right: 50%;
+        width: 2px;
+        height: 100%;
+    }
+
+
+    .timeline_item_even {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: left;
+        clear: right;
+        border-radius: 50px 0px 50px 50px;
+    }
+
+
+    .timeline_item_odd {
+        position: relative;
+        padding: 20px;
+        margin: 10px -35px;
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: right;
+        clear: left;
+        border-radius: 0px 50px 50px 50px;
+    }
+
+    .timeline_item_even::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 22px 22px;
+        top: -15%;
+        right: -9%;
+        border-radius: 50%;
+    }
+
+    .timeline_item_odd::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        padding: 22px 22px;
+        top: -11%;
+        left: -9%;
+        border-radius: 50%;
+    }
+}
